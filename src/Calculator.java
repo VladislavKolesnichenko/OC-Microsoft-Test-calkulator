@@ -10,7 +10,9 @@ public class Calculator {
         num1 = reader.nextInt();
         System.out.print("Enter second number and press Enter: ");
         num2 = reader.nextInt();
+
         System.out.print("Enter an operator and press Enter(+, -, *, /): ");
+
         operation = reader.next().charAt(0);
         switch(operation) {
             case '+': ans = num1 + num2;
