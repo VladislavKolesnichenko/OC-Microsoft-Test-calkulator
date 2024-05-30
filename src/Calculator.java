@@ -7,7 +7,7 @@ public class Calculator {
         char operation;
         Scanner reader = new Scanner(System.in);
         System.out.print("Enter first number and press Enter: ");
-        System.out.print ("Hren Vam")
+        System.out.print ("Hren Vam");
         num1 = reader.nextInt();
         System.out.print("Enter second number and press Enter: ");
         num2 = reader.nextInt();
