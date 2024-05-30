@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class 5Calculator {
+public class Calculator {
     public static void main(String[] args) {
         int num1;
         int num2;
@@ -7,11 +7,12 @@ public class 5Calculator {
         char operation;
         Scanner reader = new Scanner(System.in);
         System.out.print("Enter first number and press Enter: ");
+        System.out.print ("Hren Vam");
         num1 = reader.nextInt();
         System.out.print("Enter second number and press Enter: ");
         num2 = reader.nextInt();
 
-        System.out.print("Enter an operator and press Enter(+, -, *, /): ");
+        System.out.print("Enter an operator and press Enter(+, -, *, /):!!!NEW_ff50 ");
 
         operation = reader.next().charAt(0);
         switch(operation) {
